@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f6f9;
+}
+
+/* Center everything vertically */
+.center-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Input */
+input {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Calendar */
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin: 20px;
+}
+
+.day {
+  border: 1px solid #ccc;
+  min-height: 100px;
+  padding: 5px;
+  background: white;
+}
+
+.task {
+  color: white;
+  padding: 3px;
+  margin: 3px 0;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.math { background: green; }
+.c { background: blue; }
+.foc { background: red; }
+.chem { background: goldenrod; }
+
+.calendar-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+  background: #ddd;
+  padding: 10px 0;
+}
+
+.calendar-header div {
+  text-align: center;
+}
